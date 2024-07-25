@@ -33,7 +33,7 @@ source $HOME/.cargo/env
 Clone this repository to your server:
 
 ```sh
-git clone https://github.com/yourusername/metron.git
+git clone https://github.com/THISUXHQ/metron.git
 cd metron
 ```
 
