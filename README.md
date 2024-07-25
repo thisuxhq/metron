@@ -9,6 +9,16 @@
 - 💾 **Disk Usage**: Check disk space used and available.
 - 🌐 **Network Traffic**: Measure data sent and received.
 - 📈 **System Load**: Report server load averages.
+  
+## Why Rust?
+
+We chose Rust for Metron because of its excellent performance and reliability. Here are some key reasons:
+
+- 🧠 **Memory Efficiency**: Metron uses minimal memory, peaking at just 9.1MB.
+- ⚡ **CPU Usage**: The service efficiently utilizes CPU, consuming only about 2.737 seconds of CPU time.
+
+Rust's performance, safety, and efficiency make it an ideal choice for building a reliable and fast server monitoring tool like Metron.
+
 
 ## Prerequisites
 
