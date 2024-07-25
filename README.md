@@ -102,6 +102,14 @@ To stop the service, use the following command:
 sudo systemctl stop metron.service
 ```
 
+### 8. Disabling the Service
+
+To disable the service from starting automatically at boot:
+
+```sh
+sudo systemctl disable metron.service
+```
+
 ## Configuration
 
 Edit the `src/main.rs` file to set your Discord webhook URL:
@@ -120,5 +128,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or feedback, you can reach out to [your email](mailto:hi@sanju.sh).
-```
+For any questions or feedback, you can reach out to [mail](mailto:work@sanju.sh).
