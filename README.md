@@ -4,11 +4,11 @@
 
 ## Features
 
-- **CPU Usage**: Monitor CPU utilization.
-- **Memory Usage**: Track RAM usage and available memory.
-- **Disk Usage**: Observe disk space used and available.
-- **Network Traffic**: Measure sent and received data.
-- **System Load**: Report server load averages.
+- 📊 **CPU Usage**: Monitor CPU usage.
+- 🧠 **Memory Usage**: Track RAM usage and available memory.
+- 💾 **Disk Usage**: Check disk space used and available.
+- 🌐 **Network Traffic**: Measure data sent and received.
+- 📈 **System Load**: Report server load averages.
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@
 
 ### 1. Install Rust
 
-If Rust is not installed, you can install it using the following commands:
+If Rust is not installed, use these commands:
 
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -39,7 +39,7 @@ cd metron
 
 ### 3. Build the Project
 
-Build the Rust project with the release profile:
+Build the Rust project:
 
 ```sh
 cargo build --release
@@ -47,13 +47,13 @@ cargo build --release
 
 ### 4. Configure the Service
 
-Create and configure the `metron.service` file:
+Create and set up the `metron.service` file:
 
 ```sh
 sudo nano /etc/systemd/system/metron.service
 ```
 
-Add the following content to the service file, replacing placeholders with your actual paths and username:
+Add this content, replacing placeholders with your actual paths and username:
 
 ```ini
 [Unit]
@@ -72,7 +72,7 @@ WantedBy=multi-user.target
 
 ### 5. Enable and Start the Service
 
-Reload the `systemd` manager configuration, enable the service, and start it:
+Reload `systemd`, enable, and start the service:
 
 ```sh
 sudo systemctl daemon-reload
@@ -82,13 +82,13 @@ sudo systemctl start metron.service
 
 ### 6. Verify the Service
 
-Check the status of the service to ensure it’s running correctly:
+Check if the service is running:
 
 ```sh
 sudo systemctl status metron.service
 ```
 
-View the logs for real-time updates:
+See real-time logs:
 
 ```sh
 journalctl -u metron.service -f
@@ -96,7 +96,7 @@ journalctl -u metron.service -f
 
 ### 7. Stopping the Service
 
-To stop the service, use the following command:
+To stop the service, use:
 
 ```sh
 sudo systemctl stop metron.service
@@ -104,7 +104,7 @@ sudo systemctl stop metron.service
 
 ### 8. Disabling the Service
 
-To disable the service from starting automatically at boot:
+To stop it from starting at boot:
 
 ```sh
 sudo systemctl disable metron.service
@@ -120,7 +120,7 @@ let webhook_url = "YOUR_DISCORD_WEBHOOK_URL"; // Replace with your Discord webho
 
 ## Contributing
 
-Feel free to open issues and submit pull requests. Contributions are welcome!
+Feel free to open issues and submit pull requests. We welcome contributions!
 
 ## License
 
@@ -128,4 +128,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or feedback, you can reach out to [mail](mailto:work@sanju.sh).
+For questions or feedback, email [sanju](mailto:work@sanju.sh).
