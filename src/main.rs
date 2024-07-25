@@ -94,7 +94,7 @@ async fn main() {
                 Err(e) => eprintln!("Failed to send message to Discord: {}", e),
             }
 
-        // Wait for 30 seconds
-        sleep(Duration::from_secs(30)).await;
+        // Wait for 30 minutes
+        sleep(Duration::from_secs(30 * 60)).await;
     }
 }
