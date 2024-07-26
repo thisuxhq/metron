@@ -2,6 +2,9 @@
 
 **Metron** is a Rust-based server monitoring tool that sends server metrics to a Discord channel via a webhook. It provides insights into CPU usage, memory usage, disk usage, network traffic, and system load.
 
+<!-- show image -->
+![Metron](/assets/metron.jpeg)
+
 ## Features
 
 - 📊 **CPU Usage**: Monitor CPU usage.
